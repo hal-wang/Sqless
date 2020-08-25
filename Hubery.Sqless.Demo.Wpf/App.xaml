@@ -1,0 +1,19 @@
+﻿<Application x:Class="Hubery.Sqless.Demo.Wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:Hubery.Sqless.Demo.Wpf.Converters" xmlns:wpf="clr-namespace:Hubery.Sqless.Demo.Wpf"
+             StartupUri="View/LoginWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Brown.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:TimestampConverter x:Key="TimestampConverter"/>
+            <converters:OrderStatusConverter x:Key="OrderStatusConverter"/>
+            <wpf:NumCompareConverter x:Key="NumCompareConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

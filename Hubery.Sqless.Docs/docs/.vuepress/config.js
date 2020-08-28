@@ -69,7 +69,14 @@ module.exports = {
                 },
             ],
             '/demo/': [
-                'store/'
+                {
+                    title: '示例',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        'store/'
+                    ]
+                }
             ]
         }
     }

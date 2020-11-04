@@ -1,3 +1,1 @@
-CloudBase
-
-tcb hosting deploy ./ -e sqless-4g5k6ctl6a0c2206
+go to [https://sqless.hubery.wang](https://sqless.hubery.wang)

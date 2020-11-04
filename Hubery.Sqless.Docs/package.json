@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "tcb hosting deploy ./docs/.vuepress/dist/ -e sqless-4g5k6ctl6a0c2206"
   },
   "keywords": [],
   "author": "hubery.wang",

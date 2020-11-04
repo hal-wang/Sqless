@@ -10,7 +10,7 @@ namespace Hubery.Sqless.Demo.Common
         {
             get
             {
-                var result = Environment.GetEnvironmentVariable("SqlessTestSqlConStr");
+                var result = Environment.GetEnvironmentVariable("SqlessTestSqlConStr", EnvironmentVariableTarget.User);
                 if (string.IsNullOrEmpty(result))
                 {
                     throw new Exception("Add an environment variable for the database connection string or change this property and return");

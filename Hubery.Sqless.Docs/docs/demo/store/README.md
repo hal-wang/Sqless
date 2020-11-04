@@ -6,7 +6,7 @@ title: 一个简单的示例项目
 
 _此示例源码位于项目中的[`Hubery.Sqless.Demo.Wpf`](https://github.com/hbrwang/sqless)_
 
-运行实例请先配置环境变量`SqlessTestSqlConStr`值为 sql server 连接字符串，如
+运行实例请先配置环境变量中用户变量，新增记录`SqlessTestSqlConStr`，值为 sql server 连接字符串，如
 
 ```
 Data Source=.;Initial Catalog=StoreTest;User ID=sa;Password=123456

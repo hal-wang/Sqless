@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 [assembly: InternalsVisibleTo("Hubery.Sqless.Test")]
 namespace Hubery.Sqless
 {
+    /// <summary>
+    /// Sqless
+    /// </summary>
     public class Sqless : IDisposable
     {
         public SqlConnection Connection { get; }
@@ -53,6 +56,12 @@ namespace Hubery.Sqless
             return await producer.ExecuteNonQueryAsync();
         }
 
+        /// <summary>
+        /// 如果不存在，返回 default
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="request"></param>
+        /// <returns></returns>
         public async Task<T> SelectFirstOrDefault<T>(SqlessSelectRequest request)
         {
             await OpenSqlConnection();

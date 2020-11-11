@@ -3,6 +3,9 @@ using System.Threading.Tasks;
 
 namespace Hubery.Sqless.Access
 {
+    /// <summary>
+    /// 登录认证
+    /// </summary>
     public abstract class SqlessAccess
     {
         public string SqlConStr { get; set; }

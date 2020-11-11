@@ -2,11 +2,19 @@
 
 namespace Hubery.Sqless.Access
 {
+    /// <summary>
+    /// 账号+密码 登录认证
+    /// </summary>
     public class SqlessAccessPassword : SqlessAccess
     {
         public string AccessAccountField { get; set; }
         public string AccessPasswordField { get; set; }
 
+        /// <summary>
+        /// 根据账号密码获取用户ID
+        /// </summary>
+        /// <param name="strs">账号，密码</param>
+        /// <returns></returns>
         public override async Task<string> GetUid(params string[] strs)
         {
             var request = SelectRequestBase;

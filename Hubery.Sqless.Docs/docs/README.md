@@ -1,28 +1,27 @@
 ---
 home: true
-heroImage: /logo.png
 heroText: Sqless
-tagline: A solution for client manipulation of a database
-actionText: Get Started  →
+tagline: 一个客户端安全操作数据库的解决方案
+actionText: 开始  →
 actionLink: /usage/base/start
 features:
-  - title: Efficient
-    details: Sqless enables the client to operate the database safely without having to write the API while writing the client.Full stack programmer benefits!
-  - title: Safety
-    details: Detailed permission controls allow users to read and write specific content without having to worry about database security even when operating on the client side.
-  - title: Ease
-    details: No SQL statement, simple configuration to use. The Client/Server architecture requires only simple configuration of WebAPI.
+  - title: 高效
+    details: Sqless 使客户端能够安全地操作数据库，而不必在编写客户端同时编写API。全栈程序员福利！
+  - title: 安全
+    details: 严格的权限控制允许用户读写特定内容，而不必担心数据库安全性。
+  - title: 简单
+    details: 无需SQL语句，配置简单。CS 架构只需要简单的配置 WebAPI 。
 ---
 
-### As Easy as 1, 2, 3
+### 像 1，2，3 一样容易
 
-Run the following statement in the package manager, or search for 'Sqless' and install
+在 nuget 包管理器运行以下命令，或在 nuget 搜索 `Sqless` 并安装
 
 ```Shell
 Install-Package Sqless
 ```
 
-```C#
+```CSharp
 // SELECT
 
 var request = new SqlessSelectRequest()

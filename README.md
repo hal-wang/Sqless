@@ -1,15 +1,16 @@
-**For more, see the documentation [https://sqless.hubery.wang](https://sqless.hubery.wang)**
+_详细介绍请查看文档： [https://sqless.hubery.wang](https://sqless.hubery.wang)_
 
-- Efficient: Sqless enables the client to operate the database safely without having to write the API while writing the client.Full stack programmer benefits!
-- Safety: Detailed permission controls allow users to read and write specific content without having to worry about database security even when operating on the client side.
-- Ease: No SQL statement, simple configuration to use. The Client/Server architecture requires only simple configuration of WebAPI.
+**一个客户端安全操作数据库的解决方案**
 
-### Example
+- 高效： Sqless 使客户端能够安全地操作数据库，而不必在编写客户端同时编写 API。全栈程序员福利！
+- 安全：严格的权限控制允许用户读写特定内容，而不必担心数据库安全性。
+- 简单：无需 SQL 语句，配置简单。CS 架构只需要简单的配置 WebAPI 。
+
+### 示例
 
 _SELECT_
 
-```C#
-
+```CSharp
 var request = new SqlessSelectRequest()
 {
     Table = "User",

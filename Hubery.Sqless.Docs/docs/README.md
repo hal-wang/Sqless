@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: /logo.png
 heroText: Sqless
 tagline: 一个客户端安全操作数据库的解决方案
 actionText: 开始  →

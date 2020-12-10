@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "tcb hosting deploy ./docs/.vuepress/dist/ -e sqless-4g5k6ctl6a0c2206"
+    "deploy": "npm run build && tcb login && tcb hosting deploy ./docs/.vuepress/dist/ -e sqless-4g5k6ctl6a0c2206"
   },
   "keywords": [],
   "author": "hal-wang",

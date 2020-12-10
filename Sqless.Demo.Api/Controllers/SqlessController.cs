@@ -1,8 +1,9 @@
-﻿using Sqless.Access;
+﻿using Microsoft.AspNetCore.Mvc;
+using Sqless;
+using Sqless.Access;
 using Sqless.Api;
-using Microsoft.AspNetCore.Mvc;
 
-namespace Sqless.Demo.Api.Controllers
+namespace Demo.Sqless.Api.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

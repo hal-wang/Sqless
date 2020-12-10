@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Sqless.Demo.Common
+namespace Demo.Sqless.Common
 {
     /// <summary>
     /// tables name

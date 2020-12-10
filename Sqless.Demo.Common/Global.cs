@@ -1,8 +1,9 @@
-﻿using Sqless.Access;
+﻿using Sqless;
+using Sqless.Access;
 using Sqless.Auth;
 using System;
 
-namespace Sqless.Demo.Common
+namespace Demo.Sqless.Common
 {
     public class Global
     {

@@ -1,6 +1,6 @@
 ﻿using HTools.Config;
 
-namespace Sqless.Demo.Wpf.Helpers
+namespace Demo.Sqless.Wpf.Helpers
 {
     class ConfigHelper : SettingConfigBase
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sqless.Demo.Common;
-using Sqless.Demo.Common.Models;
+using Demo.Sqless.Common;
+using Demo.Sqless.Common.Models;
 using Sqless.Query;
 using Sqless.Request;
 using Sqless.SqlBuilder;

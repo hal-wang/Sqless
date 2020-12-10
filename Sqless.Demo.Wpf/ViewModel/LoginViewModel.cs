@@ -1,14 +1,14 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using Sqless.Api;
-using Sqless.Demo.Common;
+using Demo.Sqless.Common;
 using Sqless.Request;
-using Sqless.Demo.Wpf.Helpers;
+using Demo.Sqless.Wpf.Helpers;
 using System;
 using System.Windows;
 using System.Windows.Input;
 
-namespace Sqless.Demo.Wpf.ViewModel
+namespace Demo.Sqless.Wpf.ViewModel
 {
     class LoginViewModel : ViewModelBase
     {

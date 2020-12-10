@@ -1,5 +1,5 @@
 ﻿
-namespace Sqless.Demo.Common.Models
+namespace Demo.Sqless.Common.Models
 {
     public class Order
     {

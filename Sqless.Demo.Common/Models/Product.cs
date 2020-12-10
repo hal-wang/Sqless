@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Sqless.Demo.Common.Models
+namespace Demo.Sqless.Common.Models
 {
     public class Product
     {

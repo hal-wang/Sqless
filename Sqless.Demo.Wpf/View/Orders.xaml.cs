@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Navigation;
 
-namespace Sqless.Demo.Wpf.View
+namespace Demo.Sqless.Wpf.View
 {
     public partial class Orders : Page
     {

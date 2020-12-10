@@ -184,9 +184,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sqless.Demo.Common\Sqless.Demo.Common.csproj">
-      <Project>{C7F065D3-A3CA-4340-8F91-370D81084C6E}</Project>
-      <Name>Sqless.Demo.Common</Name>
+    <ProjectReference Include="..\Sqless.Demo.Common\Demo.Sqless.Common.csproj">
+      <Project>{c7f065d3-a3ca-4340-8f91-370d81084c6e}</Project>
+      <Name>Demo.Sqless.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sqless\Sqless.csproj">
       <Project>{bfaf7c1a-c382-4f87-8780-e9da4a50784a}</Project>

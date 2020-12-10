@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace Sqless.Demo.Wpf
+namespace Demo.Sqless.Wpf
 {
     internal class NumCompareConverter : IValueConverter
     {

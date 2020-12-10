@@ -1,12 +1,13 @@
-using Sqless.Access;
-using Sqless.Demo.Common;
+using Demo.Sqless.Common;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Sqless;
+using Sqless.Access;
 
-namespace Sqless.Demo.Api
+namespace Demo.Sqless.Api
 {
     public class Startup
     {

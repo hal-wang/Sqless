@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace Sqless.Demo.Wpf.Converters
+namespace Demo.Sqless.Wpf.Converters
 {
     public class OrderStatusConverter : IValueConverter
     {

@@ -1,7 +1,7 @@
 ﻿using Sqless.Api;
 using System.Windows;
 
-namespace Sqless.Demo.Wpf
+namespace Demo.Sqless.Wpf
 {
     public partial class App : Application
     {

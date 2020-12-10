@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Sqless.Demo.Api
+namespace Demo.Sqless.Api
 {
     public class Program
     {

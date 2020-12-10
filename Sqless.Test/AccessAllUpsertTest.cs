@@ -1,4 +1,4 @@
-﻿using Sqless.Demo.Common;
+﻿using Demo.Sqless.Common;
 using Sqless.Request;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;

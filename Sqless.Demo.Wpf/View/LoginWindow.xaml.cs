@@ -1,6 +1,6 @@
 ﻿using MahApps.Metro.Controls;
 
-namespace Sqless.Demo.Wpf.View
+namespace Demo.Sqless.Wpf.View
 {
     public partial class LoginWindow : MetroWindow
     {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sqless.Demo.Common;
+using Demo.Sqless.Common;
 using Sqless.Query;
 using Sqless.Request;
 using Sqless.SqlBuilder;

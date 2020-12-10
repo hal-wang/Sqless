@@ -1,4 +1,4 @@
-﻿namespace Sqless.Demo.Common
+﻿namespace Demo.Sqless.Common
 {
     public class User
     {

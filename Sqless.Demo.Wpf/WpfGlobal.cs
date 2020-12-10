@@ -1,6 +1,6 @@
-﻿using Sqless.Demo.Common;
+﻿using Demo.Sqless.Common;
 
-namespace Sqless.Demo.Wpf
+namespace Demo.Sqless.Wpf
 {
     public class WpfGlobal
     {

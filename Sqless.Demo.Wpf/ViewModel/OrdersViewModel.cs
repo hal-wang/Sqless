@@ -1,14 +1,15 @@
-﻿using GalaSoft.MvvmLight.Command;
+﻿using Demo.Sqless.Common;
+using Demo.Sqless.Common.Models;
+using GalaSoft.MvvmLight.Command;
 using Sqless.Api;
-using Sqless.Demo.Common;
-using Sqless.Demo.Common.Models;
+using Sqless.Query;
 using Sqless.Request;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Input;
 
-namespace Sqless.Demo.Wpf.ViewModel
+namespace Demo.Sqless.Wpf.ViewModel
 {
     public class OrdersViewModel
     {
@@ -50,12 +51,12 @@ namespace Sqless.Demo.Wpf.ViewModel
                         {
                             AccessParams = new string[] { WpfGlobal.LoginUser.Uid, WpfGlobal.LoginUser.Password },
                             Table = Tables.Order,
-                            Queries = new System.Collections.Generic.List<Query.SqlessQuery>()
+                            Queries = new System.Collections.Generic.List<SqlessQuery>()
                             {
-                                new Query.SqlessQuery()
+                                new SqlessQuery()
                                 {
                                     Field=nameof(Order.Id),
-                                    Type=Query.SqlessQueryType.Equal,
+                                    Type=SqlessQueryType.Equal,
                                     Value=order.Id
                                 }
                             }
@@ -98,12 +99,12 @@ namespace Sqless.Demo.Wpf.ViewModel
                                     Type=System.Data.DbType.Int32
                                 }
                             },
-                            Queries = new System.Collections.Generic.List<Query.SqlessQuery>()
+                            Queries = new System.Collections.Generic.List<SqlessQuery>()
                             {
-                                new Query.SqlessQuery()
+                                new SqlessQuery()
                                 {
                                     Field=nameof(Product.Id),
-                                    Type=Query.SqlessQueryType.Equal,
+                                    Type=SqlessQueryType.Equal,
                                     Value=order.Id
                                 }
                             }

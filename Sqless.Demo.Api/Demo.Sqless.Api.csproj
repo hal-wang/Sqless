@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sqless.Demo.Common\Sqless.Demo.Common.csproj" />
+    <ProjectReference Include="..\Sqless.Demo.Common\Demo.Sqless.Common.csproj" />
     <ProjectReference Include="..\Sqless\Sqless.csproj" />
   </ItemGroup>
 

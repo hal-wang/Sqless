@@ -10,6 +10,6 @@ title: 关于
 
 ## 联系方式
 
-邮箱：<hbrwang@outlook.com>
+邮箱：<support@hal.wang>
 
 更多请转至博客： <https://blog.hubery.wang>

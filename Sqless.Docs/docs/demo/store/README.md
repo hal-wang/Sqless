@@ -4,7 +4,7 @@ title: 一个简单的示例项目
 
 # 一个简单的示例项目
 
-此示例源码位于项目中的[`Hubery.Sqless.Demo.Wpf 和 Hubery.Sqless.Demo.Api`](https://github.com/hbrwang/sqless)
+此示例源码位于项目中的[`Sqless.Demo.Wpf 和 Sqless.Demo.Api`](https://github.com/hal-wang/sqless)
 
 示例项目比较简单，模拟商店出售一些商品，用户根据账号密码登录，登录后可查看或购买商品，并且可以查看订单信息。
 
@@ -18,13 +18,13 @@ title: 一个简单的示例项目
 Data Source=.;Initial Catalog=StoreTest;User ID=sa;Password=123456
 ```
 
-当然你也可以修改 `Hubery.Sqless.Demo.Common.Global` 中的 `SqlConStr` 属性，返回你的数据库连接字符串。建议测试使用环境变量，不用修改代码。
+当然你也可以修改 `Sqless.Demo.Common.Global` 中的 `SqlConStr` 属性，返回你的数据库连接字符串。建议测试使用环境变量，不用修改代码。
 
 ### 运行
 
-先以 `Debug` 运行 `Hubery.Sqless.Demo.Api`，默认端口是 6688，如果被占用需要在项目属性中更改。
+先以 `Debug` 运行 `Sqless.Demo.Api`，默认端口是 6688，如果被占用需要在项目属性中更改。
 
-再运行`Hubery.Sqless.Demo.Wpf`。WPF 客户端默认调用 API 的端口是 6688，如果已更改，请修改 `Hubery.Sqless.Demo.Wpf.WpfGlobal` 中的 `ApiUrl` 属性。
+再运行`Sqless.Demo.Wpf`。WPF 客户端默认调用 API 的端口是 6688，如果已更改，请修改 `Sqless.Demo.Wpf.WpfGlobal` 中的 `ApiUrl` 属性。
 
 至此，你可以愉快的测试 `Sqless` 的商品购买小实例了。查看代码，你将看到在 WPF 中是如此安全简单的访问数据库。
 
@@ -147,7 +147,7 @@ Data Source=.;Initial Catalog=StoreTest;User ID=sa;Password=123456
 
 ![create_proj](./imgs/create_proj.png)
 
-解决方案名称为 `Hubery.Sqless`。
+解决方案名称为 `Sqless`。
 
 ### 创建 WebApi 项目
 
@@ -155,7 +155,7 @@ Data Source=.;Initial Catalog=StoreTest;User ID=sa;Password=123456
 
 ![create_web_api](./imgs/create_web_api.png)
 
-类型选择 API，名称为`Hubery.Sqless.Demo.Api`
+类型选择 API，名称为`Sqless.Demo.Api`
 
 ![web_api](./imgs/web_api.png)
 

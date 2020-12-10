@@ -1,6 +1,6 @@
 {
   "name": "sqless",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sqless",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
     "deploy": "tcb hosting deploy ./docs/.vuepress/dist/ -e sqless-4g5k6ctl6a0c2206"
   },
   "keywords": [],
-  "author": "hubery.wang",
+  "author": "hal-wang",
   "license": "MIT"
 }

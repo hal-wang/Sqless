@@ -26,7 +26,7 @@ module.exports = {
         items: [{ text: "一个简单的示例项目", link: "/demo/store/" }],
       },
       { text: "关于", link: "/about/" },
-      { text: "GitHub", link: "https://github.com/hbrwang/sqless" },
+      { text: "GitHub", link: "https://github.com/hal-wang/sqless" },
     ],
     sidebar: {
       "/usage/": [

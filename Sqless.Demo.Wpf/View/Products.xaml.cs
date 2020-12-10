@@ -8,11 +8,6 @@ namespace Demo.Sqless.Wpf.View
         {
             InitializeComponent();
 
-            Loaded += OnLoaded;
-        }
-
-        private void OnLoaded(object sender, System.Windows.RoutedEventArgs e)
-        {
             VM.Init();
         }
 

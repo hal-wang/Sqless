@@ -9,6 +9,12 @@
     <PackageIcon>logo.png</PackageIcon>
     <AssemblyVersion>0.0.4.0</AssemblyVersion>
     <PackageId>Sqless</PackageId>
+    <PackageProjectUrl>https://sqless.hubery.wang</PackageProjectUrl>
+    <RepositoryUrl>https://sqless.hubery.wang</RepositoryUrl>
+    <Authors>h.wang</Authors>
+    <Company>h.wang</Company>
+    <Description>A solution for client manipulation of a database</Description>
+    <Product>Sqless</Product>
   </PropertyGroup>
 
   <ItemGroup>

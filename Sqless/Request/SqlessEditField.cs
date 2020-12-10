@@ -1,4 +1,4 @@
-﻿using Hubery.Tools;
+﻿using HTools;
 using System.Data;
 
 namespace Sqless.Request

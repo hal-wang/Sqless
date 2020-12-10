@@ -1,4 +1,4 @@
-﻿using Hubery.Tools.Config;
+﻿using HTools.Config;
 
 namespace Sqless.Demo.Wpf.Helpers
 {

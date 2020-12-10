@@ -1,4 +1,4 @@
-﻿using Hubery.Tools;
+﻿using HTools;
 
 namespace Sqless.Query
 {

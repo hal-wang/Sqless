@@ -1,8 +1,10 @@
 ﻿<Application x:Class="Sqless.Demo.Wpf.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:converters="clr-namespace:Sqless.Demo.Wpf.Converters" xmlns:wpf="clr-namespace:Sqless.Demo.Wpf"
+             xmlns:wpf="clr-namespace:Sqless.Demo.Wpf"
+             xmlns:converters="clr-namespace:Sqless.Demo.Wpf.Converters"
              StartupUri="View/LoginWindow.xaml">
+    
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

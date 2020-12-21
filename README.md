@@ -1,4 +1,4 @@
-_详细介绍请查看文档： [https://sqless.hubery.wang](https://sqless.hubery.wang)_
+_详细介绍请查看文档： <https://sqless.hal.wang>_
 
 **一个客户端安全操作数据库的解决方案**
 

@@ -1,1 +1,1 @@
-go to [https://sqless.hubery.wang](https://sqless.hubery.wang)
+go to <https://sqless.hal.wang>

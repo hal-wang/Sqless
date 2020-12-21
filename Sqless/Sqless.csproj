@@ -9,8 +9,8 @@
     <PackageIcon>logo.png</PackageIcon>
     <AssemblyVersion>0.0.5.0</AssemblyVersion>
     <PackageId>Sqless</PackageId>
-    <PackageProjectUrl>https://sqless.hubery.wang</PackageProjectUrl>
-    <RepositoryUrl>https://sqless.hubery.wang</RepositoryUrl>
+    <PackageProjectUrl>https://sqless.hal.wang</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hal-wang/Sqless.git</RepositoryUrl>
     <Authors>hal-wang</Authors>
     <Company>hal-wang</Company>
     <Description>一个客户端安全操作数据库的解决方案。全栈开发者福利！</Description>

@@ -12,4 +12,4 @@ title: 关于
 
 邮箱：<support@hal.wang>
 
-更多请转至博客： <https://blog.hubery.wang>
+更多请转至博客： <https://blog.hal.wang>

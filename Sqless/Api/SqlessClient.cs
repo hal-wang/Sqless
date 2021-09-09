@@ -1,21 +1,19 @@
 ﻿using HTools;
 using Sqless.Request;
+using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Sqless.Api
-{
-    public static class SqlessClient
-    {
-        public static string BaseUrl { get; set; }
+namespace Sqless.Api {
+    public static class SqlessClient {
+        public static HttpClient HttpClient { get; } = new HttpClient() {
+            Timeout = new TimeSpan(0, 0, 10),
+        };
 
-        private static RequestBase RequestBase => new RequestBase(BaseUrl, nameof(Sqless));
-
-        public static async Task<T> Post<T>(SqlessRequest request, SqlessApiType sqlessApiType)
-        {
-            var res = await RequestBase.Post(sqlessApiType.ToString(), request);
-            if (!res.IsSuccessStatusCode)
-            {
+        public static async Task<T> Post<T>(SqlessRequest request, SqlessApiType sqlessApiType) {
+            var res = await HttpClient.PostAsync("sqless/" + sqlessApiType.ToString(), request);
+            if (!res.IsSuccessStatusCode) {
                 throw await SqlessRequestException.New(res);
             }
             return await res.GetContent<T>();

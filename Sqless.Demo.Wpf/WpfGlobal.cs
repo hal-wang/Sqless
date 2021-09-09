@@ -6,6 +6,6 @@ namespace Demo.Sqless.Wpf
     {
         public static User LoginUser { get; set; } = null;
 
-        public static string ApiUrl { get; } = "http://localhost:6688/api";
+        public static string ApiUrl { get; } = "http://localhost:6688/api/";
     }
 }

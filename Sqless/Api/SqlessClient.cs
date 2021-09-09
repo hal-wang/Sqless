@@ -14,7 +14,7 @@ namespace Sqless.Api {
         public static async Task<T> Post<T>(SqlessRequest request, SqlessApiType sqlessApiType) {
             var res = await HttpClient.PostAsync("sqless/" + sqlessApiType.ToString(), request);
             if (!res.IsSuccessStatusCode) {
-                throw await SqlessRequestException.New(res);
+                throw new SqlessRequestException(res, await res.GetErrorMessage());
             }
             return await res.GetContent<T>();
         }

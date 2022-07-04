@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "vuepress build docs && bash deploy.sh"
+    "deploy": "vuepress build docs && sh deploy.sh"
   },
   "keywords": [],
   "author": "hal-wang",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
 }
